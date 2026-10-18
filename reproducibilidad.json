@@ -1,0 +1,8 @@
+{
+  "same_seed": 420042,
+  "repeatable": true,
+  "runs": [
+    "logs/S01_rep99_seed420042.jsonl",
+    "logs/S01_rep100_seed420042.jsonl"
+  ]
+}

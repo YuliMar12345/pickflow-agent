@@ -1,0 +1,11 @@
+id,scenario,repetitions,completion_mean_pct,agent_time_mean_min,agent_time_sd_min,baseline_time_mean_min,reduction_mean_pct,reduction_sd_pct,acceptance_threshold,pass,notes
+S01,Carga estándar,5,100.0,16.158,0.466,16.182,0.14,0.57,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S02,Carga baja: un pedido,5,100.0,4.004,0.184,4.004,0.0,0.0,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S03,Carga alta: seis pedidos,5,100.0,24.17,0.573,24.222,0.22,0.64,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S04,Prioridad alta,5,100.0,18.284,0.487,16.314,-12.08,0.86,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S05,Prioridad baja,5,100.0,17.792,0.284,15.866,-12.14,1.35,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S06,Un operario disponible,5,100.0,18.19,0.294,20.19,9.91,0.16,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S07,Ubicaciones repetidas,5,100.0,19.26,0.654,19.224,-0.18,0.45,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S08,Entorno adverso: mayor variabilidad de viaje,5,100.0,19.984,0.647,20.026,0.21,0.44,finalización >=90%; meta SMART de reducción >=20% evaluada aparte,True,meta_reduccion_20_cumple=False
+S09,Falla esperada: ubicación inválida,5,0.0,N/A,N/A,N/A,N/A,N/A,manejo controlado de ubicación inválida,False,KeyError: 'Z99'
+S10,Falla esperada: sin operarios disponibles,5,0.0,N/A,N/A,N/A,N/A,N/A,no asignar pedidos si no hay operarios; registrar condición,True,Sin excepción; pedidos permanecen pendientes
